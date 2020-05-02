@@ -86,7 +86,7 @@ export default class App extends React.Component {
           <div className="container">
             <div className="section-heading text-center">
               <h2>Unlimited Features, Unlimited Fun</h2>
-              <p className="text-muted">Check out what you can do with this app theme!</p>
+              <p className="text-muted">Mira lo facil que puedes reservar con Fontime!</p>
               <br></br>
             </div>
             <div className="row">
