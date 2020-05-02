@@ -74,7 +74,7 @@ export default class App extends React.Component {
                 <h2 className="section-heading">Descubre lo que Fontime hace por ti!</h2>
                 <p>Nuestra aplicación está disponible para cualquier dispositivo movil!<br></br>Descargala YA!</p>
                 <div className="badges">
-                  <a className="badge-link" href="#"><img src={require('./img/app-store-badge.svg')}/>&nbsp</a>
+                  <a className="badge-link" href="#"><img src={require('./img/app-store-badge.svg')}/></a>
                   <a className="badge-link" href="#"><img src={require('./img/google-play-badge.svg')}/></a>
                 </div>
               </div>
