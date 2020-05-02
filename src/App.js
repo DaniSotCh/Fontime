@@ -85,7 +85,7 @@ export default class App extends React.Component {
         <section className="features" id="features">
           <div className="container">
             <div className="section-heading text-center">
-              <h2>Unlimited Features, Unlimited Fun</h2>
+              <h2>Una manera más rápida y sin colas para comer</h2>
               <p className="text-muted">Mira lo facil que puedes reservar con Fontime!</p>
               <br></br>
             </div>
