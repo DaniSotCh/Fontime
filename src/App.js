@@ -7,7 +7,7 @@ const pLeft={
     width: '25px',
   },
   imgApp:{
-    width:'89%'
+    width:'90%'
   },
   colorText:{
     color:'#616161'
@@ -53,7 +53,7 @@ export default class App extends React.Component {
               </div>
               <div className="col-lg-5 my-auto">
                 <div className="device-container">
-                  <div className="device-mockup iphone6_plus portrait white">
+                  <div className="device-mockup galaxy_s3 portrait white">
                     <div className="device">
                       <div className="screen">
                         <img style={pLeft.imgApp} src={require('./img/Home.png')}/>
@@ -70,13 +70,15 @@ export default class App extends React.Component {
         <section className="download bg-primary text-center" id="download">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 mx-auto">
+              <div className="col-md-7 mx-auto">
                 <h2 className="section-heading">Descubre lo que Fontime hace por ti!</h2>
                 <p>Nuestra aplicación está disponible para cualquier dispositivo movil!<br></br>Descargala YA!</p>
                 <div className="badges">
-                  <a className="badge-link" href="#"><img src={require('./img/app-store-badge.svg')}/></a>
                   <a className="badge-link" href="#"><img src={require('./img/google-play-badge.svg')}/></a>
                 </div>
+              </div>
+              <div className="col-md-5 mx-auto">
+                <iframe width="500" height="255" src="https://www.youtube.com/embed/G1ID1i8boLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -92,10 +94,10 @@ export default class App extends React.Component {
             <div className="row">
               <div className="col-lg-4 my-auto">
                 <div className="device-container">
-                  <div className="device-mockup iphone6_plus portrait white">
+                  <div className="device-mockup galaxy_s3 portrait white">
                     <div className="device">
                       <div className="screen">
-                        <img src="img/demo-screen-1.jpg" className="img-fluid" alt=""></img>
+                        <img style={pLeft.imgApp} src={require('./img/detalle_menú.png')}/>
                       </div>
                       <div className="button">
 
@@ -110,31 +112,31 @@ export default class App extends React.Component {
                     <div className="col-lg-6">
                       <div className="feature-item">
                         <i className="icon-screen-smartphone text-primary"></i>
-                        <h3>Device Mockups</h3>
-                        <p className="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                        <h3>Rápido uso</h3>
+                        <p className="text-muted">Siempre listo al momento que tienes hambre!</p>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="feature-item">
-                        <i className="icon-camera text-primary"></i>
-                        <h3>Flexible Use</h3>
-                        <p className="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                        <i className="fas fa-gem text-primary"></i>
+                        <h3>Exclusivo para ti</h3>
+                        <p className="text-muted">¿Eres UPCino?, entonces esta app es para ti!</p>
                       </div>
                     </div>
                   </div>
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="feature-item">
-                        <i className="icon-present text-primary"></i>
-                        <h3>Free to Use</h3>
-                        <p className="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                        <i className="fas fa-lock text-primary"></i>
+                        <h3>Restaurantes confiables</h3>
+                        <p className="text-muted">No dudes en la salubridad del restaurant dentro de la universidad!</p>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="feature-item">
-                        <i className="icon-lock-open text-primary"></i>
-                        <h3>Open Source</h3>
-                        <p className="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                        <i className="fas fa-users text-primary"></i>
+                        <h3>Sin colas</h3>
+                        <p className="text-muted">No necesitas realizar colas para hacer tu pedido!</p>
                       </div>
                     </div>
                   </div>
